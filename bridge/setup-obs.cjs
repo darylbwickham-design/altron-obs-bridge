@@ -16,6 +16,6 @@ async function main(){let camera=process.argv[2],alerts=process.argv[3];if(!came
  await api.call('CreateInput',{sceneName:names[3],inputName:names[2],inputKind:'browser_source',inputSettings:{url:'http://127.0.0.1:8766/mission?v=3',width:1920,height:1080,fps:30,shutdown:false},sceneItemEnabled:true});
  const room=(await api.call('GetSceneItemList',{sceneName:names[3]})).sceneItems.find(i=>i.sourceName===names[2]);await api.call('SetSceneItemTransform',{sceneName:names[3],sceneItemId:room.sceneItemId,sceneItemTransform:{positionX:0,positionY:0,alignment:5,scaleX:video.baseWidth/1920,scaleY:video.baseHeight/1080}});
  await add(names[3],names[1]);if(alerts)await add(names[3],alerts);
- console.log('Created dedicated show scene and camera helpers. Existing sources, filters and current program scene were not edited. Select OBS scene mode in Lumia, then TEST altron-show.');
+ console.log('Created dedicated show scene and camera helpers. Existing sources, filters and current program scene were not edited.');console.log(process.env.ALTRON_SETUP_BACKEND==='pulse-weaver'?'Create a new PW White Teleport Stage in Manage stages, using the PW White Teleport scene for its landscape view. Save Lumia mode = Pulse Weaver Stage.':'Save Lumia mode = OBS scene (standard OBS).');console.log('Run Start-Bridge.cmd and TEST altron-show after importing the overlay and command.');
  }finally{api.close();}}
 main().catch(e=>{console.error(e.message);process.exitCode=1;});
