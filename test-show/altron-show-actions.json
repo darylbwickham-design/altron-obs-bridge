@@ -1,0 +1,390 @@
+{
+  "before": [
+    {
+      "id": "altron-show-1",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/arrive?destination=room",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-2",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-3",
+      "base": "lumiaActions",
+      "type": "tts",
+      "on": true,
+      "value": {
+        "message": "Ranger, I have located Avatar. Probably. Stand by for a completely reliable teleport.",
+        "value": "",
+        "options": [],
+        "on": true,
+        "duration": 1000,
+        "voice": "Brian",
+        "volume": 80,
+        "speed": 100,
+        "color": "",
+        "extra": "",
+        "chatas": "chatbot",
+        "shouldReply": false,
+        "waitForAudioToStop": true,
+        "waitForTtsToStop": true,
+        "useSystemTtsOverride": true,
+        "addToEndOfQueue": false,
+        "type": "",
+        "mode": "network",
+        "output": {
+          "id": "3",
+          "label": "Headphones (High Definition Audio Device)"
+        }
+      }
+    },
+    {
+      "id": "altron-show-4",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-5",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/out",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-6",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-7",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-8",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/arrive?destination=laundromat",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-9",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-10",
+      "base": "lumiaActions",
+      "type": "tts",
+      "on": true,
+      "value": {
+        "message": "Ah. The laundromat. Avatar might be in the spin cycle. Let me adjust the coordinates.",
+        "value": "",
+        "options": [],
+        "on": true,
+        "duration": 1000,
+        "voice": "Brian",
+        "volume": 80,
+        "speed": 100,
+        "color": "",
+        "extra": "",
+        "chatas": "chatbot",
+        "shouldReply": false,
+        "waitForAudioToStop": true,
+        "waitForTtsToStop": true,
+        "useSystemTtsOverride": true,
+        "addToEndOfQueue": false,
+        "type": "",
+        "mode": "network",
+        "output": {
+          "id": "3",
+          "label": "Headphones (High Definition Audio Device)"
+        }
+      }
+    },
+    {
+      "id": "altron-show-11",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-12",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/out",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-13",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-14",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-15",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/arrive?destination=moon",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-16",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-17",
+      "base": "lumiaActions",
+      "type": "tts",
+      "on": true,
+      "value": {
+        "message": "That is the moon. On the bright side, excellent parking. Avatar is definitely not here.",
+        "value": "",
+        "options": [],
+        "on": true,
+        "duration": 1000,
+        "voice": "Brian",
+        "volume": 80,
+        "speed": 100,
+        "color": "",
+        "extra": "",
+        "chatas": "chatbot",
+        "shouldReply": false,
+        "waitForAudioToStop": true,
+        "waitForTtsToStop": true,
+        "useSystemTtsOverride": true,
+        "addToEndOfQueue": false,
+        "type": "",
+        "mode": "network",
+        "output": {
+          "id": "3",
+          "label": "Headphones (High Definition Audio Device)"
+        }
+      }
+    },
+    {
+      "id": "altron-show-18",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-19",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/out",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-20",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-21",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-22",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/arrive?destination=freezer",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-23",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-24",
+      "base": "lumiaActions",
+      "type": "tts",
+      "on": true,
+      "value": {
+        "message": "The freezer. I may have confused mission control with the grocery list. One more attempt.",
+        "value": "",
+        "options": [],
+        "on": true,
+        "duration": 1000,
+        "voice": "Brian",
+        "volume": 80,
+        "speed": 100,
+        "color": "",
+        "extra": "",
+        "chatas": "chatbot",
+        "shouldReply": false,
+        "waitForAudioToStop": true,
+        "waitForTtsToStop": true,
+        "useSystemTtsOverride": true,
+        "addToEndOfQueue": false,
+        "type": "",
+        "mode": "network",
+        "output": {
+          "id": "3",
+          "label": "Headphones (High Definition Audio Device)"
+        }
+      }
+    },
+    {
+      "id": "altron-show-25",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-26",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/out",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-27",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-28",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    },
+    {
+      "id": "altron-show-29",
+      "base": "api",
+      "url": "http://127.0.0.1:18767/arrive?destination=room",
+      "method": "post",
+      "delay": 0,
+      "headers": [],
+      "body": [],
+      "rawBody": ""
+    },
+    {
+      "id": "altron-show-30",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 3250
+    },
+    {
+      "id": "altron-show-31",
+      "base": "lumiaActions",
+      "type": "tts",
+      "on": true,
+      "value": {
+        "message": "Welcome back, Ranger. Successful mission. We have established three places where Avatar is not.",
+        "value": "",
+        "options": [],
+        "on": true,
+        "duration": 1000,
+        "voice": "Brian",
+        "volume": 80,
+        "speed": 100,
+        "color": "",
+        "extra": "",
+        "chatas": "chatbot",
+        "shouldReply": false,
+        "waitForAudioToStop": true,
+        "waitForTtsToStop": true,
+        "useSystemTtsOverride": true,
+        "addToEndOfQueue": false,
+        "type": "",
+        "mode": "network",
+        "output": {
+          "id": "3",
+          "label": "Headphones (High Definition Audio Device)"
+        }
+      }
+    },
+    {
+      "id": "altron-show-32",
+      "base": "lumiaActions",
+      "type": "delay",
+      "on": true,
+      "value": {},
+      "delay": 350
+    }
+  ],
+  "after": [],
+  "waitForActions": true
+}
