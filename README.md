@@ -19,3 +19,5 @@ Backgrounds and Altron head: Lumia overlay > layer Configuration > Apply these l
 Node.js 22+ is required. Only run one of OBS/Pulse Weaver at a time if both use WebSocket port 4455 or the same camera. Credentials are read locally from the recipient app's config; no credentials are included. Portable standard OBS may set ALTRON_OBS_CONFIG to its own obs-websocket/config.json path.
 
 The core show was tested in Pulse Weaver. The full native TTS show was additionally tested in OBS 32.2.2 at 2560x1440: room, laundromat, moon, freezer, room; one program scene, alternating camera corners and headphone-driven glow. The new Pulse Weaver setup wrapper is the same helper-scene builder using the Pulse Weaver connection; Stage creation remains manual.
+
+Native teleport alpha: the optional native filter and audio source remove Lua setup for the effect. Download the small native add-on and matching source from the native alpha prerelease. The Lumia avatar plugin/private overlay remain separately supplied, and the updated Node bridge remains required for choreography. See native/README.md for audio files, delays, monitoring and opt-in helper migration.
